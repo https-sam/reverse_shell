@@ -56,7 +56,6 @@ int main() {
     CloseHandle(processInfo.hThread);
     memset(recvServer, 0, sizeof(recvServer));
   }
-
 }
 
 
